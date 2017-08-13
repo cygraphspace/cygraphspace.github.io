@@ -60,7 +60,6 @@ window.$docsify = {
     loadSidebar: true,
     loadNavbar: true,
     name: '',
-    repo: '',
     search: {
         paths: 'auto',
         placeholder: 'Type to search 🔍',
