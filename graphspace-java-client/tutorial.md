@@ -172,3 +172,86 @@ You can delete a layout using graph's and layout's ID.
 ```
 client.deleteGraphLayout(graphId, layoutId);
 ```
+
+### Fetch a group from GraphSpace
+
+To import a group from GraphSpace using group's name, use *getGroup* method
+
+```
+client.getGroup(groupName);
+```
+### Fetch all groups of which you're the ownerEmail
+
+You can import all groups owned by you by using *getMyGroups* method
+
+```
+client.getMyGroups(limit, offset);
+```
+
+### Fetch all groups of which you're a member
+
+To import groups where you're a member, use the *getAllGroups* method
+
+```
+client.getAllGroups(limit, offset);
+```
+
+### Post a group to GraphSpace
+
+You can import a group to GraphSpace using the *postGroup* method where group is a GSGroup object
+
+```
+client.postGroup(group);
+```
+
+### Delete a group from GraphSpace
+
+To delete a group from GraphSpace, use the *deleteGroup* method
+client.deleteGroup(groupName, groupId);
+
+### Get members of a group
+
+To get all the members of a group use the *getGroupMembers* method
+
+```
+client.getGroupMembers(groupName, groupId, group);
+```
+
+### Add a member to a group
+
+To add a member to a group, use the *addGroupMember* method
+
+```
+client.addGroupMember(memberEmail, groupName, groupId, group);
+```
+### Delete a member from a group
+
+To delete a member from a group, use the *deleteGroupMember* method
+
+```
+client.deleteGroupMember(memberId, member, groupName, groupId, group);
+```
+
+### Get graphs belonging to a group
+
+To import all graphs belonging to a group, use the *getGroupGraphs* method
+
+```
+client.getGroupGraphs(groupName, groupId, group);
+```
+
+### Share a graph with a group
+
+You can share a graph with a group using the *shareGraph* method
+
+```
+client.shareGraph(graphName, graphId, graph, groupName, groupId, group);
+```
+
+### Un-Share a graph with a group
+
+You can un-share a previously shared graph with a group use the *unshareGraph* method
+
+```
+client.unshareGraph(graphName, graphId, graph, groupName, groupId, group);
+```

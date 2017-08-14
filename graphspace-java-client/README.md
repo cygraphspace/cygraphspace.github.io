@@ -11,7 +11,7 @@ The potential audience for graphspace_python includes biologists, computer scien
 This library currently does not allow you to create graphs from scratch. In case you need more functionlity, it is recommended to use [python client](https://graphspace-python.readthedocs.io) instead.
 
 # Installation
-Get the GraphsSpace Java Client jar file from [here](https://github.com/Murali-group/CyGraphSpace/blob/develop/apps/javaclient-0.0.1.jar)
+Get the GraphsSpace Java Client jar file from [here](https://github.com/Murali-group/CyGraphSpace/blob/develop/apps/GraphSpaceJavaClient-1.0.0.jar)
 
 ### For Maven Projects
 
@@ -61,4 +61,4 @@ Get the GraphsSpace Java Client jar file from [here](https://github.com/Murali-g
 
 ## [Tutorial](/graphspace-java-client/tutorial.md)
 
-## [API Reference](https://rishabhsethi.com/cygraphspacejavadoc)
+## [API Reference](https://cygraphspace.github.io/javaclientdocs/)

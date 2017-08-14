@@ -10,7 +10,7 @@
   + [Overview](/graphspace-java-client/README#Overview)
   + [Installation](/graphspace-java-client/README#installation)
   + [Tutorial](/graphspace-java-client/tutorial)
-  + [API Reference](https://rishabhsethi.com/cygraphspacejavadoc)
+  + [API Reference](https://cygraphspace.github.io/javaclientdocs/)
 
 ## Get Started with CyGraphSpace
 
