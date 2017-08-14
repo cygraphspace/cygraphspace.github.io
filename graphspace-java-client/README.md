@@ -15,46 +15,48 @@ Get the GraphsSpace Java Client jar file from [here](https://github.com/Murali-g
 
 ### For Maven Projects
 
-1. Save the jar file in the **{basedir}/lib** directory.
+- Save the jar file in the **{basedir}/lib** directory.
 
-1. Then, in pom.xml file of your maven project, add the following dependency.
+- Then, in pom.xml file of your maven project, add the following dependency.
 
-    > `<dependency>`<br/>
-    > `<groupId>org.graphspace</groupId>`<br/>
-    > `<artifactId>javaclient</artifactId>`<br/>
-    > `<version>0.0.1</version>`<br/>
-    > `</dependency>`
+```
+<dependency>
+    <groupId>org.graphspace</groupId>
+    <artifactId>javaclient</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+- Then add **maven-install-plugin** and set the **graphspace-java-client path**.
 
-1. Then add **maven-install-plugin** and set the **graphspace-java-client path**.
-
-    >`<plugins>`<br/>
-    >`...`<br/>
-    >`<plugin>`<br/>
-    >`<groupId>org.apache.maven.plugins</groupId>`<br/>
-    >`<artifactId>maven-install-plugin</artifactId>`<br/>
-    >`<version>2.5.2</version>`<br/>
-    >`<executions>`<br/>
-    >`<execution>`<br/>
-    >`<id>install-external</id>`<br/>
-    >`<phase>clean</phase>`<br/>
-    >`<configuration>`<br/>
-    >`<file>${basedir}/lib/javaclient-0.0.1.jar</file>`<br/>
-    >`<repositoryLayout>default</repositoryLayout>`<br/>
-    >`<groupId>org.graphspace</groupId>`<br/>
-    >`<artifactId>javaclient</artifactId>`<br/>
-    >`<version>0.0.1</version>`<br/>
-    >`<packaging>jar</packaging>`<br/>
-    >`<generatePom>true</generatePom>`<br/>
-    >`</configuration>`<br/>
-    >`<goals>`<br/>
-    >`<goal>install-file</goal>`<br/>
-    >`</goals>`<br/>
-    >`</execution>`<br/>
-    >`</executions>`<br/>
-    >`</plugin>`<br/>
-    >`...`<br/>
-    >`</plugins>`
-
+```
+<plugins>
+    ...
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-install-plugin</artifactId>
+        <version>2.5.2</version>
+        <executions>
+            <execution>
+            <id>install-external</id>
+            <phase>clean</phase>
+            <configuration>
+                <file>${basedir}/lib/GraphSpaceJavaClient-1.0.0.jar</file>
+                <repositoryLayout>default</repositoryLayout>
+                <groupId>org.graphspace</groupId>
+                <artifactId>javaclient</artifactId>
+                <version>1.0.0</version>
+                <packaging>jar</packaging>
+                <generatePom>true</generatePom>
+            </configuration>
+            <goals>
+                <goal>install-file</goal>
+            </goals>
+            </execution>
+        </executions>
+    </plugin>
+    ...
+</plugins>`
+```
 <br/>
 
 ## [Tutorial](/graphspace-java-client/tutorial.md)

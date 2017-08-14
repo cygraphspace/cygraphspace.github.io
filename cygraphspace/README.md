@@ -28,4 +28,4 @@ CyGraphSpace allows users to upload graphs and their styles directly from the Cy
 
 # Contribute
 
-1. Please report bugs [here](https://github.com/Murali-group/CyGraphSpace/issues)
+Please report bugs [here](https://github.com/Murali-group/CyGraphSpace/issues)
