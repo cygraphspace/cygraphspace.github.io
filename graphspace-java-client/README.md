@@ -5,10 +5,15 @@ GraphSpace Java Client is a Java Client library for the GraphSpace REST API. It 
 GraphSpace Java Client allows a user to import and upload the network from GraphSpace with a few lines of code. Moreover, the user need not know the details of the REST API to use this module. It is very easy to integrate this library into a user’s software pipeline.
 
 # Who uses  GraphSpace Java Client?
-The potential audience for graphspace_python includes biologists, computer scientists and data scientists.
+GraphSpace was incepted to make sharing of graphs among systems biologists easier, thus enabling greater collaboration.
+
+However, GraphSpace has matured into a much broader tool and is agnostic about the type of graph shared. Today, GraphSpace is used by Biologists, Computer Scientists as well
+as Data Scientists to share varied types of graphs. Have a look at some of the graphs [here](http://www.graphspace.org/graphs)
 
 # Note
-This library currently does not allow you to create graphs from scratch. In case you need more functionlity, it is recommended to use [python client](https://graphspace-python.readthedocs.io) instead.
+The GraphSpace Java Client library is currently very limited as it was created with different goals. Currently, it does not support
+creating graphs from the ground up. In case you need more functionlity, it is recommended to use [python client](https://graphspace-python.readthedocs.io) instead.
+Please file an [issue](http://github.com/Murali-group/CyGraphSpace/issues) if you'd like us to implement any feature.
 
 # Installation
 Get the GraphsSpace Java Client jar file from [here](https://github.com/Murali-group/CyGraphSpace/blob/develop/apps/GraphSpaceJavaClient-1.0.0.jar)
@@ -58,6 +63,25 @@ Get the GraphsSpace Java Client jar file from [here](https://github.com/Murali-g
 </plugins>`
 ```
 <br/>
+
+### Building jar from source
+You can also build the jar file from source. To do this, get the code from [here](https://github.com/Murali-group/CyGraphSpace/tree/develop/GraphSpaceJavaClient).
+
+If you don't have eclipse installed, download it from [here](http://www.eclipse.org/downloads/) first. Eclipse is not required but is recommended.
+
+> Note: You'll need Java 8 or above to run GraphSpaceClient.
+
+* Import GraphSpaceJavaClient folder into eclipse as a maven project. To do this,
+
+    1. Go to File>Import.
+    1. Select Maven>Existing Maven Projects
+    1. Select the GraphSpaceJavaClient folder
+
+> In case you wish to develop on GraphSpaceJavaClient, it is recommended that you fork the repo first so that git is pointed to your personal repository.
+
+* Right click pom.xml file and select "Run As>Maven Install". The created jar file after the build process will be located inside the target directory.
+
+* If you are developing the library, you can use the prewritten tests inside the tests package to test your modified methods.
 
 ## [Tutorial](/graphspace-java-client/tutorial.md)
 

@@ -17,8 +17,10 @@
 - [**CyGraphSpace**](/cygraphspace/README)
   + [Overview](/cygraphspace/README#overview)
   + [Installation](/cygraphspace/README#installation)
-  + [Using the app](/cygraphspace/README#usage)
-  + [Contribute](/cygraphspace/README#contribute)
+  + [Tutorial](/cygraphspace/tutorial)
+  + [Missing Functionality](/cygraphspace/missing-functionality)
+
+To know more about Cytoscape development, follow the &nbsp;[blog](https://cygraphspace.github.io/blog)
 
 ## How to Contribute
 
