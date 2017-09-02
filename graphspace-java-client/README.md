@@ -13,10 +13,9 @@ as Data Scientists to share varied types of graphs. Have a look at some of the g
 # Note
 The GraphSpace Java Client library is currently very limited as it was created with different goals. Currently, it does not support
 creating graphs from the ground up. In case you need more functionlity, it is recommended to use [python client](https://graphspace-python.readthedocs.io) instead.
-Please file an [issue](http://github.com/Murali-group/CyGraphSpace/issues) if you'd like us to implement any feature.
 
 # Installation
-Get the GraphsSpace Java Client jar file from [here](https://github.com/Murali-group/CyGraphSpace/blob/develop/apps/GraphSpaceJavaClient-1.0.0.jar)
+Get the GraphsSpace Java Client jar file from [here](https://cygraphspace.github.io/downloads/GraphSpaceJavaClient-1.0.0.jar)
 
 ### For Maven Projects
 
@@ -65,7 +64,7 @@ Get the GraphsSpace Java Client jar file from [here](https://github.com/Murali-g
 <br/>
 
 ### Building jar from source
-You can also build the jar file from source. To do this, get the code from [here](https://github.com/Murali-group/CyGraphSpace/tree/develop/GraphSpaceJavaClient).
+You can also build the jar file from source. To do this, get the code from [here](https://github.com/rishabhsethi/CyGraphSpace/tree/master/GraphSpaceJavaClient).
 
 If you don't have eclipse installed, download it from [here](http://www.eclipse.org/downloads/) first. Eclipse is not required but is recommended.
 

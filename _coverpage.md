@@ -6,7 +6,7 @@
 
 [Project by Murali Group](https://github.com/Murali-group)
 
-[GitHub](https://github.com/Murali-Group/CyGraphSpace)
+[GitHub](https://github.com/rishabhsethi/CyGraphSpace)
 [Get Started](#cygraphspace)
 
 ![color](#f0f0f0)

@@ -24,7 +24,7 @@ To know more about Cytoscape development, follow the &nbsp;[blog](https://cygrap
 
 ## How to Contribute
 
-- Fork this repo [here](https://github.com/Murali-Group/CyGraphSpace)
+- Fork this repo [here](https://github.com/rishabhsethi/CyGraphSpace/)
 - Make a pull request
 - Get your pull request approved
 

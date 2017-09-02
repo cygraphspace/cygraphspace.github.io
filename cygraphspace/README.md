@@ -10,7 +10,7 @@ CyGraphSpace enables thousands of Cytoscape users to seamlessly share their netw
 
 1. First [download Cytoscape](http://www.cytoscape.org/download.php) if don't have it already. Read [this guide](http://www.cytoscape.org/documentation_users.html) to get an introduction to Cytoscape.
 
-1. Download the CyGraphSpace app [here](https://github.com/Murali-group/CyGraphSpace/blob/develop/CyGraphSpaceApp/target/CyGraphSpace-1.0.0.jar).
+1. Download the CyGraphSpace app [here](https://cygraphspace.github.io/downloads/CyGraphSpace-1.0.0.jar).
 
 1. Paste the jar file in the following directory: **{home}/CytoscapeConfiguration/3/apps/installed/**.
 
